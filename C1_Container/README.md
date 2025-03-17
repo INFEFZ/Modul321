@@ -17,7 +17,8 @@
     - [1.8.3. Anwendung mit docker-compose up starten](#183-anwendung-mit-docker-compose-up-starten)
 - [2. Aufgaben](#2-aufgaben)
   - [2.1. Tutorial: Containerize a .NET app](#21-tutorial-containerize-a-net-app)
-  - [2.1. ASP.NET Core WebAPI in Docker Container erstellen](#21-aspnet-core-webapi-in-docker-container-erstellen)
+  - [2.2. Tutorial: ASP.NET Core Series](#22-tutorial-aspnet-core-series)
+  - [2.3. ASP.NET Core WebAPI in Docker Container erstellen](#23-aspnet-core-webapi-in-docker-container-erstellen)
 
 ---
 
@@ -217,7 +218,32 @@ volumes:
 
 ---
 
-## 2.1. ASP.NET Core WebAPI in Docker Container erstellen
+## 2.2. Tutorial: ASP.NET Core Series
+
+| **Vorgabe**         | **Beschreibung**                                              |
+| :------------------ | :------------------------------------------------------------ |
+| **Lernziele**       | Können ein ASP.NET Core WebAPI Projekt erstellen              |
+|                     | Können für das Projekt ein korrektes **Dockerfile** erstellen |
+|                     | Können das Projekt in **Docker** veröffentlichen              |
+| **Sozialform**      | Einzelarbeit                                                  |
+| **Auftrag**         | siehe unten                                                   |
+| **Hilfsmittel**     | [ASP.NET Core Series](https://code-maze.com/net-core-series/) |
+| **Zeitbedarf**      | 50min                                                         |
+| **Lösungselemente** | Lauffähiges Projekt in Docker Desktop                         |
+
+**Auftrag:**
+
+Clone für das Tutorial das vorbereitete Beispielprojekt lokal auf dein Rechner.
+[docker-series-app-prepared](https://github.com/CodeMazeBlog/docker-series)
+
+Arbeit im Tutorial **ASP.NET Core Series** die beiden folgenden Kapitel durch und halte die wichtigsten Schritte für die Docker-Veröffentlichung fest:
+
+- [Dockerizing ASP.NET Core Application With Dockerfiles](https://code-maze.com/aspnetcore-app-dockerfiles/)
+- [Adding MySQL to ASP.NET Core App With Docker Compose](https://code-maze.com/mysql-aspnetcore-docker-compose/)
+
+---
+
+## 2.3. ASP.NET Core WebAPI in Docker Container erstellen
 
 | **Vorgabe**         | **Beschreibung**                                                                                                |
 | :------------------ | :-------------------------------------------------------------------------------------------------------------- |
