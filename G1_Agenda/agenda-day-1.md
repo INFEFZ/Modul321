@@ -12,7 +12,7 @@
   - [Themen-Input](./topic-input.md)
   - Prüfungen
     - [Präsentation](../G4_Exams/1-presentation.md)
-    - [Projektarbeit](../G4_Exams/2-exam.md)
+    - [Projektarbeit](../G4_Exams/2-practical-work.md)
 
 ---
 
