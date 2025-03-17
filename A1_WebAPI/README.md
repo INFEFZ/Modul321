@@ -25,12 +25,12 @@
 # 1. ASP.NET Core Minimal APIs
 
 - ASP.NET Core **Minimal APIs** sind eine **schlankere und einfachere Möglichkeit**, Web-APIs in .NET zu erstellen.
-- Sie wurden mit .NET 6 eingeführt und sind besonders nützlich für kleine APIs, Microservices oder Anwendungen, bei denen **eine vollständige Controller-basierte Architektur** nicht erforderlich ist.
+- Sie wurden mit .NET 6 eingeführt und sind besonders nützlich **für kleine APIs**, **Microservices** oder Anwendungen, bei denen **eine vollständige Controller-basierte Architektur** nicht erforderlich ist.
 
 ## 1.1. Sinn und Zweck
 
 - ASP.NET Core **Minimal APIs** sind eine hervorragende Wahl für kleine, schnelle APIs mit **geringem Overhead**.
-- Sie bieten eine einfache Möglichkeit, Web-APIs zu entwickeln, sind aber nicht ideal für komplexe, gross angelegte Anwendungen. Wenn du eine API für ein grösseres Projekt erstellst, könnte die traditionelle **Controller-basierte** Architektur besser geeignet sein.
+- Sie bieten eine einfache Möglichkeit, Web-APIs zu entwickeln, sind aber **nicht ideal für komplexe, gross angelegte Anwendungen**. Wenn du eine API für ein grösseres Projekt erstellst, könnte die traditionelle **Controller-basierte** Architektur besser geeignet sein.
 
 ### 1.1.1. Zusammenfassung
 
@@ -195,7 +195,7 @@ Arbeite das [Tutorial](https://learn.microsoft.com/de-ch/training/modules/build-
 **Auftrag:**
 
 Arbeite das [Tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-9.0&tabs=visual-studio)
-durch und teste alle Endpoints mit .http Datei oder Postman.
+durch und teste alle **Endpoints** mit .http Datei oder Postman.
 
 ---
 
@@ -214,6 +214,6 @@ durch und teste alle Endpoints mit .http Datei oder Postman.
 
 **Auftrag:**
 
-Erweitere die Aufgabe 2.2, sodass an stelle der Domain-Klasse die DTO Klasse (TodoItemDTO) für den Datenaustausch zwischen dem Client u. Server verwendet wird.
+Erweitere die Aufgabe 3.2, sodass an stelle der Domain-Klasse die DTO Klasse (TodoItemDTO) für den Datenaustausch zwischen dem Client u. Server verwendet wird.
 
 ![Swagger Dokumentation](./x_gitres/task-todo-with-dto.png)

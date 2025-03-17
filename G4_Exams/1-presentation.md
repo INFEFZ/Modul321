@@ -9,7 +9,7 @@
   - [1.4. Themenauswahl](#14-themenauswahl)
     - [1.4.1. Microservices in virtualisierten Umgebungen mit Docker](#141-microservices-in-virtualisierten-umgebungen-mit-docker)
     - [1.4.2. Message Broker RabbitMQ](#142-message-broker-rabbitmq)
-    - [1.4.3. Einsatz von Gateways in Microservices mit Ocelot](#143-einsatz-von-gateways-in-microservices-mit-ocelot)
+    - [1.4.3. Einsatz von API-Gateways in Microservices mit Ocelot](#143-einsatz-von-api-gateways-in-microservices-mit-ocelot)
     - [1.4.4. Authentifizierung und Autorisierung in Microservices mit JWT](#144-authentifizierung-und-autorisierung-in-microservices-mit-jwt)
 - [2. Bewertung](#2-bewertung)
   - [2.1. Notenskala](#21-notenskala)
@@ -148,7 +148,7 @@
 
 ---
 
-### 1.4.3. Einsatz von Gateways in Microservices mit Ocelot
+### 1.4.3. Einsatz von API-Gateways in Microservices mit Ocelot
 
 - Zeigen Sie, wie API-**Gateways** mit Ocelot in ASP.NET Core WebAPI-Projekten eingesetzt werden können.
 - Erläutern Sie die Voraussetzungen sowie die verschiedenen Einsatzbereiche von API-Gateways in Microservice-Architekturen.
