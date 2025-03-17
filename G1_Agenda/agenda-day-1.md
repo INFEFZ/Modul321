@@ -19,6 +19,9 @@
 - **[Software Installationen u. Tools](../G2_Requirements/README.md)**
   - Datenbanken (MS-SQL, MYSQL)
   - Installation Docker Desktop
+  - Postman
+  - Visual Studio
+  - Visual Code Extensions
 
 ---
 
