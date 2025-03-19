@@ -192,10 +192,16 @@ Arbeite das [Tutorial](https://learn.microsoft.com/de-ch/training/modules/build-
 | **Zeitbedarf**      | 35min                                                                                                                                                          |
 | **Lösungselemente** | Lauffähiges .NET Projekt                                                                                                                                       |
 
-**Auftrag:**
+**Auftrag 1:**
 
 Arbeite das [Tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-9.0&tabs=visual-studio)
 durch und teste alle **Endpoints** mit .http Datei oder Postman.
+
+**Auftrag 2:**
+
+Prüfe, wie die **Endpoints** in einer separaten Methode **(WebApplication Extension**) ausgelagert werden können.
+
+[Organizing ASP.NET Core Minimal APIs](https://www.tessferrandez.com/blog/2023/10/31/organizing-minimal-apis.html)
 
 ---
 
