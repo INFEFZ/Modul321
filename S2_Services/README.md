@@ -29,20 +29,20 @@
 
 ## 1.2. Grundprinzipien von Microservices
 
-**Autonomie:** Jeder Microservice ist eine eigenständige Einheit, die unabhängig entwickelt, bereitgestellt und skaliert werden kann.
-**Single Responsibility Principle (SRP):** Ein Microservice konzentriert sich auf eine klar definierte Aufgabe oder Geschäftsanforderung.
-**Lose Kopplung:** Dienste sind so konzipiert, dass Änderungen an einem Dienst die anderen minimal beeinflussen.
-**Technologische Vielfalt:** Jeder Dienst kann in einer für seine Anforderungen geeigneten Technologie entwickelt werden.
-**Leichte Kommunikation:** Microservices kommunizieren über standardisierte Protokolle, z. B. HTTP/REST, gRPC oder Messaging-Systeme.
-**Skalierbarkeit:** Jeder Microservice kann unabhängig skaliert werden, was die Ressourcennutzung optimiert.
-**Fehlertoleranz:** Fehler in einem Dienst sollten nicht die gesamte Anwendung beeinträchtigen.
+- **Autonomie:** Jeder Microservice ist eine eigenständige Einheit, die unabhängig entwickelt, bereitgestellt und skaliert werden kann.
+- **Single Responsibility Principle (SRP):** Ein Microservice konzentriert sich auf eine klar definierte Aufgabe oder Geschäftsanforderung.
+- **Lose Kopplung:** Dienste sind so konzipiert, dass Änderungen an einem Dienst die anderen minimal beeinflussen.
+- **Technologische Vielfalt:** Jeder Dienst kann in einer für seine Anforderungen geeigneten Technologie entwickelt werden.
+- **Leichte Kommunikation:** Microservices kommunizieren über standardisierte Protokolle, z. B. HTTP/REST, gRPC oder Messaging-Systeme.
+- **Skalierbarkeit:** Jeder Microservice kann unabhängig skaliert werden, was die Ressourcennutzung optimiert.
+- **Fehlertoleranz:** Fehler in einem Dienst sollten nicht die gesamte Anwendung beeinträchtigen.
 
 ## 1.3. Vorteile von Microservices
 
-**Skalierbarkeit:** Dienste können **unabhängig** voneinander skaliert werden.
-**Wartbarkeit:** Kleine Codebasen sind **einfacher** zu warten und zu testen.
-**Flexibilität:** Unterschiedliche **Technologien** und Datenbanken können je nach Bedarf genutzt werden.
-**Schnellere Entwicklungszyklen:** Teams können unabhängig voneinander an verschiedenen Diensten arbeiten.
+- **Skalierbarkeit:** Dienste können **unabhängig** voneinander skaliert werden.
+- **Wartbarkeit:** Kleine Codebasen sind **einfacher** zu warten und zu testen.
+- **Flexibilität:** Unterschiedliche **Technologien** und Datenbanken können je nach Bedarf genutzt werden.
+- **Schnellere Entwicklungszyklen:** Teams können unabhängig voneinander an verschiedenen Diensten arbeiten.
 
 ## 1.4. Herausforderungen von Microservices
 
@@ -57,20 +57,24 @@
 
 ## 1.5. Monolith vs. Microservices
 
-**Monolith** und **Microservices** sind zwei verschiedene Ansätze für den Aufbau von Softwareanwendungen, insbesondere in Bezug auf deren Architektur und Struktur.
-**Monolithische Architekturen** sind einfacher für **kleinere, weniger komplexe Anwendungen**, während **Microservices** besonders bei grossen, skalierbaren und wartungsintensiven Systemen von Vorteil sind. Der Übergang von **Monolithen** zu **Microservices** kann jedoch herausfordernd sein und erfordert eine sorgfältige Planung.
+- **Monolith** und **Microservices** sind zwei verschiedene Ansätze für den Aufbau von Softwareanwendungen, insbesondere in Bezug auf deren Architektur und Struktur.
+- **Monolithische Architekturen** sind einfacher für **kleinere, weniger komplexe Anwendungen**, während **Microservices** besonders bei grossen, skalierbaren und wartungsintensiven Systemen von Vorteil sind.
+- Der Übergang von **Monolithen** zu **Microservices** kann jedoch herausfordernd sein und erfordert eine sorgfältige Planung.
 
-Eine **monolithische Architektur** ist eine Softwarelösung, bei der alle Komponenten der Anwendung in einem einzigen Codeblock integriert sind. Alle **Funktionen** wie Datenbankzugriff, Benutzeroberfläche und Logik sind **eng miteinander verbunden**.
+Eine **monolithische Architektur** ist eine Softwarelösung, bei der **alle Komponenten der Anwendung in einem einzigen Codeblock** integriert sind. Alle **Funktionen** wie Datenbankzugriff, Benutzeroberfläche und Logik sind **eng miteinander verbunden**.
 
 ![Monolith](./x_gitres/monolith.png)
 
-**Microservices** ist ein Architekturstil, bei dem die Anwendung in eine Sammlung **kleiner, unabhängiger Services** unterteilt wird, die jeweils eine spezifische Funktion ausführen. Diese Services kommunizieren über **APIs** und können **unabhängig** voneinander entwickelt, getestet, deployed und skaliert werden.
+- **Microservices** ist ein Architekturstil, bei dem die Anwendung in eine Sammlung **kleiner, unabhängiger Services** unterteilt wird, die jeweils eine **spezifische Funktion** ausführen.
+- Diese Services kommunizieren über **APIs** und können **unabhängig** voneinander entwickelt, getestet, deployed und skaliert werden.
 
 ![Microservice](./x_gitres/microservices.png)
 
 ## 1.6. Zusammenfassung
 
-**Microservices** bieten eine leistungsstarke Möglichkeit, **flexible** und **skalierbare** **Anwendungen** zu erstellen. Sie bringen jedoch auch Herausforderungen mit sich, die sorgfältige Planung und robuste Lösungen erfordern. Mit Technologien wie ASP.NET Core und Tools wie **Docker** oder **Kubernetes** können Microservices effizient umgesetzt und verwaltet werden
+- **Microservices** bieten eine leistungsstarke Möglichkeit, **flexible** und **skalierbare** **Anwendungen** zu erstellen. 
+- Sie bringen jedoch auch Herausforderungen mit sich, die sorgfältige Planung und robuste Lösungen erfordern. 
+- Mit Technologien wie ASP.NET Core und Tools wie **Docker** oder **Kubernetes** können **Microservices** effizient umgesetzt und verwaltet werden
 
 </br>
 
