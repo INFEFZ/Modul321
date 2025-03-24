@@ -72,8 +72,8 @@ Eine **monolithische Architektur** ist eine Softwarelösung, bei der **alle Komp
 
 ## 1.6. Zusammenfassung
 
-- **Microservices** bieten eine leistungsstarke Möglichkeit, **flexible** und **skalierbare** **Anwendungen** zu erstellen. 
-- Sie bringen jedoch auch Herausforderungen mit sich, die sorgfältige Planung und robuste Lösungen erfordern. 
+- **Microservices** bieten eine leistungsstarke Möglichkeit, **flexible** und **skalierbare** **Anwendungen** zu erstellen.
+- Sie bringen jedoch auch Herausforderungen mit sich, die sorgfältige Planung und robuste Lösungen erfordern.
 - Mit Technologien wie ASP.NET Core und Tools wie **Docker** oder **Kubernetes** können **Microservices** effizient umgesetzt und verwaltet werden
 
 </br>
@@ -119,10 +119,10 @@ Lösen Sie die beiden Übungen und fassen Sie die wichtigsten Befehle kurz zusam
 | **Zeitbedarf**      | 120min                                                                               |
 | **Lösungselemente** | Lauffähige Anwendung auf dem Laptop                                                  |
 
-Erstelle in Visual Studio folgende Projektumgebung:
+**Erstelle in Visual Studio folgende Projektumgebung:**
 
 - Solution: ecommerce
-- [Projektstruktur](./x_gitres/task-ecommerce-project-structure.png)
+- ![Projektstruktur](./x_gitres/task-ecommerce-project-structure.png)
 
 **WebAPI Project:**
 
@@ -135,3 +135,8 @@ Erstelle in Visual Studio folgende Projektumgebung:
 - Name: **ProductService**
 - Datenbank: **SQL-Server**
 - ![Customer Service](./x_gitres/task-ecommerce-product-service.png)
+
+**Docker:**
+
+- Beide Services inkl. den Datenbanken müssen im **Docker** ausgeführt werden.
+- Erstell hierfür das `Dockerfile` und die `docker-compose.yml` Datei.
