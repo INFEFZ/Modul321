@@ -13,7 +13,7 @@
     - [1.6.2. Event-Driven Architektur (EDA)](#162-event-driven-architektur-eda)
     - [1.6.3. Task-Queue-Verarbeitung](#163-task-queue-verarbeitung)
     - [1.6.4. Datenreplikation](#164-datenreplikation)
-    - [1.6.5. Skalierung und Lastverteilung](#165-skalierung-und-lastverteilung)
+    - [1.6.5. Skalierung und Lastverteilung (Loadbalancing)](#165-skalierung-und-lastverteilung-loadbalancing)
   - [1.7. Beispiel mit RabbitMQ in .NET](#17-beispiel-mit-rabbitmq-in-net)
   - [1.8. Arten von Exchange-Typen](#18-arten-von-exchange-typen)
     - [1.8.1. Direct Exchange](#181-direct-exchange)
@@ -56,7 +56,7 @@ Er fungiert als **Vermittler** zwischen den Komponenten eines **verteilten Syste
 
 **Unterstützung von Mustern:** Ermöglicht Pub/Sub- oder Punkt-zu-Punkt-Kommunikation.
 
-Beispiele für Message Broker sind RabbitMQ, Apache Kafka, ActiveMQ und Azure Service Bus.
+Beispiele für Message Broker sind RabbitMQ, Apache Kafka, ActiveMQ und Azure Service Bus (siehe [Wiki](https://en.wikipedia.org/wiki/Message_broker))
 
 ## 1.3. Architektur eines Message Brokers
 
@@ -121,15 +121,14 @@ Message Broker wie Apache Kafka werden genutzt, um Änderungen in einer Datenban
 - Änderungen in der primären Datenbank werden als Ereignisse erfasst.
 - Diese Ereignisse werden an andere Systeme wie Data Warehouses oder Cache-Systeme verteilt.
 
-### 1.6.5. Skalierung und Lastverteilung
+### 1.6.5. Skalierung und Lastverteilung (Loadbalancing)
 
-**Message Broker** können verwendet werden, um Lasten dynamisch auf mehrere Worker zu verteilen.
-
-- Ein Broker verteilt eingehende Nachrichten gleichmässig auf **mehrere Konsumenten**, die parallel arbeiten und unabhängig skalieren können.
+**Message Broker** können verwendet werden, um Lasten dynamisch auf mehrere Worker zu verteilen (Loadbalancing).
 
 ## 1.7. Beispiel mit RabbitMQ in .NET
 
 Nachfolgend ein Codebeispiel, das zeigt, wie ein **Producer** und ein **Consumer** mit RabbitMQ implementiert werden können.
+[Einführung zu RabbitMQ](https://www.youtube.com/watch?v=fLWD8rJFAVk)
 
 ## 1.8. Arten von Exchange-Typen
 
