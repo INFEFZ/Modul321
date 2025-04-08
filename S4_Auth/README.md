@@ -252,6 +252,7 @@ app.Run();
 | **Lösungselemente** | Lauffähige Anwendung auf dem Laptop                                                                                                        |
 
 **Aufgabe 1:**
+
 Erweitere die **e-commerce** Anwendung (siehe Aufgaben in Kapitel Microservices) mit einem `AuthService`,
 der für die Authentifikation der Benutzer zuständig ist.
 Erstelle hierzu in der **e-commerce** Solution ein zusätzliches WebAPI-Projekt (Name=**AuthService**) und implementiere für einen
@@ -263,6 +264,7 @@ geschützten Zugang eine Login WebAPI-Request mit Benutzername und Passwort.
 - ![Projektstruktur](./x_gitres/task-ecommerce-project-structure.png)
 
 **Aufgabe 2:**
+
 Erweitere die Aufgabe 1, indem die geschützten Methoden zusätzlich mit einem **Role-based Access Control (RBAC)** gesichert werden.
 
 ---
