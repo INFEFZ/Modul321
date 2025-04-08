@@ -317,7 +317,7 @@ Prüfe, dass alle Voraussetzungen (RabbitMQ Installation) erfüllt sind.
 
 ![Work Queues](./x_gitres/rabbitmq-work-queues.png)
 
-Erstelle nun die beiden Console-Projekte (`NewTask` und `Worker`)
+Erstelle nun die beiden Console-Projekte (**`NewTask`** und **`Worker`**)
 Starte und prüfe die Funktionstauglichkeit zum Meldungsaustausch (Round-robin dispatching)
 
 Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in Markdown.
@@ -345,8 +345,8 @@ Prüfe, dass alle Voraussetzungen (RabbitMQ Installation) erfüllt sind.
 
 ![Publish-Subscribe](./x_gitres/rabbitmq-publish-subscribe.png)
 
-Erstelle nun die beiden Console-Projekte (`EmitLog` und `ReceiveLogs`)
-Starte und prüfe die Funktionstauglichkeit zum Meldungsaustausch (Send/Receive)
+Erstelle nun die beiden Console-Projekte (**`EmitLog`** und **`ReceiveLogs`**)
+Starte und prüfe die **Funktionstauglichkeit** zum Meldungsaustausch (Send/Receive)
 
 Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in Markdown.
 
@@ -366,9 +366,9 @@ Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in M
 **Auftrag:**
 
 Eine WebAPI-Anwendung (**Producer**) soll bei der Ausführung eines Web-Requests eine Nachricht über **RabbitMQ** an eine Console-Anwendung (**Consumer**) senden.
-Konkret sollen neue Produkte (Methode POST) an die Console-App gesendet werden.
+Konkret sollen neue Produkte (Methode **POST**) an die Console-App gesendet werden.
 
-Der Programmcode der Konsole-App wird unten zur Verfügung gestellt.
+Der Programmcode der **Konsole-App** wird unten zur Verfügung gestellt.
 
 ![Architektur](./x_gitres/task-product-mq.png)
 
@@ -383,7 +383,7 @@ Neue Produkte (POST) sind nach dem Einfügen in Datenbank an die Konsole-App zu 
 
 **Konsole-Anwendung:**
 
-Erstelle eine neue Konsolen-Anwendung (Name=`ProductMQ.ConsoleApp`) als **Consumer** App, welche die vom **Producer** gesendete Nachricht empfängt und ausgibt.
+Erstelle eine neue Konsolen-Anwendung (Name=**`ProductMQ.ConsoleApp`**) als **Consumer** App, welche die vom **Producer** gesendete Nachricht empfängt und ausgibt.
 
 ```c#
 using RabbitMQ.Client;
