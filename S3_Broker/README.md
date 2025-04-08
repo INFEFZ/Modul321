@@ -253,10 +253,11 @@ Mit Tools wie **RabbitMQ** und Programmiersprachen wie C# lassen sich solche Sys
 | **Sozialform**      | Einzelarbeit                                             |
 | **Auftrag**         | siehe unten                                              |
 | **Hilfsmittel**     | [Installation](https://www.rabbitmq.com/docs/download)   |
-| **Zeitbedarf**      | 50min                                                    |
+| **Zeitbedarf**      | 20min                                                    |
 | **Lösungselemente** | Lauffähige **RabbitMQ** Installation                     |
 
-Führe eine Installation von RabbitMQ auf als Docker-Image oder als lokale Windows-Installation aus.
+Führe eine Installation von **RabbitMQ** auf als Docker-Image oder als lokale Windows-Installation aus.
+Teste die Installation über das Management Interface (Web GUI).
 
 - [Installation](https://www.rabbitmq.com/docs/download)
 - [Docker-Image](https://hub.docker.com/_/rabbitmq/)
@@ -275,7 +276,7 @@ Führe eine Installation von RabbitMQ auf als Docker-Image oder als lokale Windo
 | **Auftrag**         | siehe unten                                                               |
 | **Hilfsmittel**     | [Getting Started](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet) |
 |                     | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials)                  |
-| **Zeitbedarf**      | 90min                                                                     |
+| **Zeitbedarf**      | 60min                                                                     |
 | **Lösungselemente** | Lauffähige Anwendung inkl. Kurzpräsentation (Markdown)                    |
 
 Recherchiere den Leistungsumfang zum [.NET/C# Client API Guide](https://www.rabbitmq.com/client-libraries/dotnet-api-guide)
@@ -307,7 +308,7 @@ Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in M
 | **Auftrag**         | siehe unten                                                               |
 | **Hilfsmittel**     | [Getting Started](https://www.rabbitmq.com/tutorials/tutorial-two-dotnet) |
 |                     | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials)                  |
-| **Zeitbedarf**      | 90min                                                                     |
+| **Zeitbedarf**      | 60min                                                                     |
 | **Lösungselemente** | Lauffähige Anwendung inkl. Kurzpräsentation (Markdown)                    |
 
 **RabbitMQ** stellt eine Möglichkeit zur Verfügung um zeitintensive Aufgaben auf **mehrere Worker** verteilen zu können.
@@ -334,7 +335,7 @@ Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in M
 | **Auftrag**         | siehe unten                                                                 |
 | **Hilfsmittel**     | [Getting Started](https://www.rabbitmq.com/tutorials/tutorial-three-dotnet) |
 |                     | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials)                    |
-| **Zeitbedarf**      | 90min                                                                       |
+| **Zeitbedarf**      | 60min                                                                       |
 | **Lösungselemente** | Lauffähige Anwendung inkl. Kurzpräsentation (Markdown)                      |
 
 Das **Publish-Subscribe** (Pub/Sub) Pattern in **RabbitMQ** ist ein Messaging-Muster, bei dem **eine Nachricht** von einem Produzenten (Publisher) an **mehrere Konsumenten (Subscribers)** verteilt wird. RabbitMQ nutzt hierfür Exchanges und Queues.
@@ -359,7 +360,7 @@ Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in M
 | **Auftrag**         | siehe unten                                                                        |
 | **Hilfsmittel**     | [Getting Started](https://www.rabbitmq.com/tutorials/tutorial-three-dotnet)        |
 |                     | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials)                           |
-| **Zeitbedarf**      | 120min                                                                             |
+| **Zeitbedarf**      | 90min                                                                              |
 | **Lösungselemente** | Lauffähige Anwendung inkl. Live Demo                                               |
 
 **Auftrag:**
