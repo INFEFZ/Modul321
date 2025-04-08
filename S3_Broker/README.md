@@ -360,12 +360,12 @@ Erstelle eine kurze Zusammenfassung der wichtigsten Schritte und Ergebnisse in M
 | **Auftrag**         | siehe unten                                                                        |
 | **Hilfsmittel**     | [Getting Started](https://www.rabbitmq.com/tutorials/tutorial-three-dotnet)        |
 |                     | [RabbitMQ Tutorials](https://www.rabbitmq.com/tutorials)                           |
-| **Zeitbedarf**      | 90min                                                                              |
+| **Zeitbedarf**      | 70min                                                                              |
 | **Lösungselemente** | Lauffähige Anwendung inkl. Live Demo                                               |
 
 **Auftrag:**
 
-Eine WebAPI-Anwendung (**Producer**) soll bei der Ausführung eines Web-Requests eine Nachricht über **RabbitMQ** an eine Console-Anwendung (**Consumer**) senden.
+Eine WebAPI-Anwendung (**Producer**) soll bei der Ausführung eines Web-Requests eine **Nachricht** über **RabbitMQ** an eine Console-Anwendung (**Consumer**) senden.
 Konkret sollen neue Produkte (Methode **POST**) an die Console-App gesendet werden.
 
 Der Programmcode der **Konsole-App** wird unten zur Verfügung gestellt.
@@ -377,7 +377,7 @@ Erstelle in der Solution (ProductMQ) die beiden Projekte.
 ![Projektstruktur](./x_gitres/task-product-mq-project.png)
 
 Implementiere die WebAPI mit folgenden Endpoints und verwende für die Speicherung die MS-SQL Datenbank.
-Neue Produkte (POST) sind nach dem Einfügen in Datenbank an die Konsole-App zu senden.
+**Neue Produkte (POST) sind nach dem Einfügen in Datenbank an die Konsole-App zu senden**.
 
 ![WebAPI](./x_gitres/task-product-mq-api.png)
 
