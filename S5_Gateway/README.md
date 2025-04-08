@@ -169,7 +169,7 @@ app.Run();
 | **Zeitbedarf**      | 120min                                                                     |
 | **Lösungselemente** | Lauffähige Anwendung auf dem Laptop                                        |
 
-Erweitere die **e-commerce** Anwendung (siehe Aufgaben in Kapitel Microservices) mit dem Gateway (Ocelot),
+Erweitere die **e-commerce** Anwendung (siehe Aufgaben in Kapitel **Microservices**) mit dem Gateway (Ocelot),
 sodass beide Service über eine Url im Zugriff stehen.
 Erstelle hierzu ein zusätzliches WebAPI-Projekt (Name=**ECommerce**), installiere das Ocelot NuGet Paket und erstelle eine **`ocelot.json`** Datei.
 
