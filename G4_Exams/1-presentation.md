@@ -31,24 +31,24 @@
 
 ## 1.2. Auftrag
 
-- Recherchieren Sie ein spezifisches Fachthema aus dem Bereich **"Verteilte Systeme programmieren"** und bereiten Sie eine Präsentation für die Klasse vor.
-- Ihre Präsentation soll die wichtigsten Aspekte des Themas verständlich erklären und mit geeigneten Code- oder Übungsbeispielen veranschaulichen.
+- Recherchieren Sie ein spezifisches Fachthema aus dem Bereich **"Verteilte Systeme programmieren"** und bereiten Sie eine **Präsentation** für die Klasse vor.
+- Ihre **Präsentation** soll die wichtigsten Aspekte des Themas verständlich erklären und mit geeigneten Code- oder **Übungsbeispielen** veranschaulichen.
 
 **Recherche:**
 
-- Nutzen Sie verschiedene Quellen (Fachartikel, Online-Dokumentationen, offizielle Dokumentationen).
+- Nutzen Sie **verschiedene Quellen (Fachartikel, Online-Dokumentationen, offizielle Dokumentationen)**.
 - Achten Sie auf verständliche Erklärungen und praxisnahe Anwendungen.
 
 **Präsentation:**
 
-- Strukturieren Sie die Inhalte logisch (Einführung, Hauptteil, Fazit).
+- Strukturieren Sie die **Inhalte logisch (Einführung, Hauptteil, Fazit)**.
 - Erklären Sie Fachbegriffe und Konzepte verständlich.
-- Verwenden Sie anschauliche Grafiken oder Diagramme zur Unterstützung.
+- Verwenden Sie anschauliche **Grafiken** oder **Diagramme** zur Unterstützung.
 - Fügen Sie Codebeispiele oder Übungsaufgaben zur Veranschaulichung ein.
 
 **Vortrag:**
 
-- Üben Sie Ihre Präsentation, um sicher und frei sprechen zu können.
+- Üben Sie Ihre **Präsentation**, um sicher und frei sprechen zu können.
 - Bereiten Sie sich auf mögliche Fragen der Klasse vor.
 
 **Abgabe:**
@@ -58,8 +58,8 @@
 
 ## 1.3. Wichtig
 
-- **Kein PowerPoint. Die Präsentation hat im Markdown Format zu erfolgen.**
-- Dauer der Kurzpräsentation: **30 min**
+> - Kein PowerPoint. Die Präsentation hat im Markdown Format zu erfolgen.
+> - Dauer der Kurzpräsentation: **30 min**
 
 ---
 
@@ -69,8 +69,8 @@
 
 ### 1.4.1. Microservices in virtualisierten Umgebungen mit Docker
 
-- Erstellen Sie eine detaillierte Präsentation zu den Möglichkeiten von Microservices in virtualisierten Umgebungen wie Docker.
-- Zeigen Sie insbesondere, wie ASP.NET Core-Anwendungen in Visual Studio für Docker erstellt werden können.
+- Erstellen Sie eine **detaillierte Präsentation** zu den Möglichkeiten von **Microservices** in virtualisierten Umgebungen wie Docker.
+- Zeigen Sie insbesondere, wie **ASP.NET Core-Anwendungen** in **Visual Studio** für **Docker** erstellt werden können.
 - Erklären Sie die benötigten Voraussetzungen sowie die wichtigsten Konfigurationsdateien wie `Dockerfile`, .`dockerignore` und `docker-compose.yml`.
 
 **Einführung in Microservices & Docker:**
