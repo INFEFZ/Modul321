@@ -10,7 +10,7 @@
 
 ---
 
-- **[Prüfung 1 - Präsentation](../G4_Exams/presentation-1.md)**
+- **[Prüfung 1 - Präsentation](../G4_Exams/1-presentation.md)**
   - Themenauswahl 1
   - Themenauswahl 2
   - Themenauswahl 3
