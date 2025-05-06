@@ -4,11 +4,12 @@
 
 - [1. WhatsApp API mit ASP.NET WebAPI](#1-whatsapp-api-mit-aspnet-webapi)
   - [1.1. Einführung](#11-einführung)
-  - [Twilio Angebot](#twilio-angebot)
-  - [Twilio für WhatsApp](#twilio-für-whatsapp)
+  - [1.2. Twilio Angebot](#12-twilio-angebot)
+  - [1.3. Twilio für WhatsApp](#13-twilio-für-whatsapp)
 - [2. Aufgaben](#2-aufgaben)
-  - [2.1. WhatsApp - Konsole](#21-whatsapp---konsole)
-  - [2.1. WhatsApp - WebAPI](#21-whatsapp---webapi)
+  - [2.1. Twilio Registrierung](#21-twilio-registrierung)
+  - [2.2. WhatsApp - Konsole](#22-whatsapp---konsole)
+  - [2.3. WhatsApp - WebAPI](#23-whatsapp---webapi)
 
 ---
 
@@ -23,7 +24,7 @@
 
 ![Twilio Logo](./x_gitres/whatsapp-twilio.png)
 
-## Twilio Angebot
+## 1.2. Twilio Angebot
 
 - SMS und MMS
 - WhatsApp
@@ -32,7 +33,7 @@
 - Chat (Twilio Chat API)
 - usw.
 
-## Twilio für WhatsApp
+## 1.3. Twilio für WhatsApp
 
 **Twilio** ermöglicht es Unternehmen, **WhatsApp** als Kanal für die Kommunikation mit ihren Kunden zu nutzen, und das über die **Twilio API** für WhatsApp.
 
@@ -42,6 +43,8 @@
 </br>
 
 # 2. Aufgaben
+
+## 2.1. Twilio Registrierung
 
 | **Vorgabe**         | **Beschreibung**                                           |
 | :------------------ | :--------------------------------------------------------- |
@@ -61,7 +64,7 @@
 
 ---
 
-## 2.1. WhatsApp - Konsole
+## 2.2. WhatsApp - Konsole
 
 | **Vorgabe**         | **Beschreibung**                                                             |
 | :------------------ | :--------------------------------------------------------------------------- |
@@ -79,7 +82,7 @@ Die Konfigurationsdaten (Sid, Token, Mobile-Nr. usw.) sind in der `appsetting.js
 
 ---
 
-## 2.1. WhatsApp - WebAPI
+## 2.3. WhatsApp - WebAPI
 
 | **Vorgabe**         | **Beschreibung**                                                             |
 | :------------------ | :--------------------------------------------------------------------------- |
