@@ -10,7 +10,7 @@
     - [1.4.1. Microservices in virtualisierten Umgebungen mit Docker](#141-microservices-in-virtualisierten-umgebungen-mit-docker)
     - [1.4.2. Message Broker RabbitMQ](#142-message-broker-rabbitmq)
     - [1.4.3. Einsatz von API-Gateways in Microservices mit Ocelot](#143-einsatz-von-api-gateways-in-microservices-mit-ocelot)
-    - [1.4.4. Authentifizierung und Autorisierung in Microservices mit JWT und Schnittstellen](#144-authentifizierung-und-autorisierung-in-microservices-mit-jwt-und-schnittstellen)
+    - [1.4.4. Authentifizierung und Autorisierung in Microservices mit JWT und definierte Schnittstellen](#144-authentifizierung-und-autorisierung-in-microservices-mit-jwt-und-definierte-schnittstellen)
 - [2. Bewertung](#2-bewertung)
   - [2.1. Notenskala](#21-notenskala)
 
@@ -192,7 +192,7 @@
 
 </br>
 
-### 1.4.4. Authentifizierung und Autorisierung in Microservices mit JWT und Schnittstellen
+### 1.4.4. Authentifizierung und Autorisierung in Microservices mit JWT und definierte Schnittstellen
 
 - Erstellen Sie eine detaillierte Präsentation über die Möglichkeiten der **Authentifizierung** und **Autorisierung** in Microservices.
 - Zeigen Sie, wie **JWT (JSON Web Token)** für die **Authentifizierung** und **Autorisierung** in ASP.NET Core WebAPI-Projekten implementiert werden kann.
@@ -228,11 +228,11 @@
 - Vorteile und Herausforderungen der JWT-Authentifizierung
 - Best Practices für sichere Implementierung in Microservices
 
-**Schnittstellen:**
+**Definierte Schnittstellen:**
 
 - Erläuterungen zu den beiden definierten Schnittstellen **GraphQL** und **gRPC**
-- Wie können diese Schnittstelle anstelle REST eingesetzt werden (Vor- und Nachteile)
-- Code Beispielprojekte bzw. Beispielprojekte zu den beiden Schnittstellen
+- Wie können diese Schnittstelle anstelle von **REST** eingesetzt werden (Vor- und Nachteile)
+- Code Beispielprojekte u. Tutorials zu den beiden Schnittstellen
 
 ---
 
