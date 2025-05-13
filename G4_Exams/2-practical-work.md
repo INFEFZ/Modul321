@@ -206,7 +206,7 @@ Es müssen folgende Randbedingungen eingehalten werden:
 ## 1.12. Kurzpräsentation
 
 Sie stellen Ihre Ergebnisse mittels einer Kurzpräsentation der Klasse vor, präsentieren Sie Ihre
-Webseite in einer Live Demo und schliessen Sie Ihre Präsentation mit einem kurzen Fazit ab (lessons
+Projektarbeit in einer Live Demo und schliessen Sie Ihre Präsentation mit einem kurzen Fazit ab (lessons
 learned).
 Dauer der Kurzpräsentation : ca. 15-20 min
 
