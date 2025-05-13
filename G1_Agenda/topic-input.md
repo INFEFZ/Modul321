@@ -39,6 +39,7 @@ Die Präsentation wird im Anschluss der Klasse im OneNote (Platz für Zusammenar
 - Kennt Hilfsmittel zum Serialisieren und Deserialisieren von Daten (z.B. JSON, XML, protobuf).
 - Kennt Protokolle (z.B. HTTP, TCP) zum Datenaustausch über wohl definierte Schnittstellen (z.B. REST, GraphQL, gRPC, WS, Gateway, Proxy).
 - Kennt Mechanismen für Authentifizierung und Autorisierung (z.B. OpenID, JWT, oAuth, ABAC/RBAC).
+- Beispiel Code zu GraphQL und gRPC Schnittstellen
 
 ---
 
