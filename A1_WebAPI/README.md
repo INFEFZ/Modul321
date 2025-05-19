@@ -220,6 +220,6 @@ Prüfe, wie die **Endpoints** in einer separaten Methode **(WebApplication Exten
 
 **Auftrag:**
 
-Erweitere die Aufgabe 3.2, sodass an stelle der Domain-Klasse die DTO Klasse (TodoItemDTO) für den Datenaustausch zwischen dem Client u. Server verwendet wird.
+Erweitere die Aufgabe 3.2, sodass an stelle der Domain-Klasse die DTO Klasse (`TodoItemDTO`) für den Datenaustausch zwischen dem Client u. Server verwendet wird.
 
 ![Swagger Dokumentation](./x_gitres/task-todo-with-dto.png)

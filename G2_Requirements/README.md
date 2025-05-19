@@ -6,9 +6,10 @@
   - [1.1. Visual Studio](#11-visual-studio)
   - [1.2. Visual Studio Code](#12-visual-studio-code)
     - [1.2.1. Extension - Docker](#121-extension---docker)
-    - [1.2.2. Extension - Dev Container](#122-extension---dev-container)
-    - [1.2.3. Extension - MS-SQL](#123-extension---ms-sql)
-    - [1.2.4. Extension - REST-Client](#124-extension---rest-client)
+    - [1.2.2. Extension - Container Tools](#122-extension---container-tools)
+    - [1.2.3. Extension - Dev Container](#123-extension---dev-container)
+    - [1.2.4. Extension - MS-SQL](#124-extension---ms-sql)
+    - [1.2.5. Extension - REST-Client](#125-extension---rest-client)
   - [1.3. SQL-Datenbanken](#13-sql-datenbanken)
   - [1.4. Docker](#14-docker)
   - [1.5. Postman](#15-postman)
@@ -35,15 +36,19 @@
 
 ![Extension MS-SQL](./x_gitres/vsc-extension-docker.png)
 
-### 1.2.2. Extension - Dev Container
+### 1.2.2. Extension - Container Tools
+
+![Extension Container Tools](./x_gitres/vsc-extension-container-tools.png)
+
+### 1.2.3. Extension - Dev Container
 
 ![Extension Dev-Container](./x_gitres/vsc-extension-dev-container.png)
 
-### 1.2.3. Extension - MS-SQL
+### 1.2.4. Extension - MS-SQL
 
 ![Extension MS-SQL](./x_gitres/vsc-extension-mssql.png)
 
-### 1.2.4. Extension - REST-Client
+### 1.2.5. Extension - REST-Client
 
 ![visual studio code](./x_gitres/vsc-extension-rest-client.png)
 
