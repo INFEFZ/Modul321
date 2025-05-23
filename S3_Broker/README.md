@@ -259,6 +259,8 @@ Mit Tools wie **RabbitMQ** und Programmiersprachen wie C# lassen sich solche Sys
 Installiere und starte **RabbitMQ** in Docker (Docker-Image).
 Teste die Installation über das **Management Interface (Web GUI)**.
 
+> **Wichtig: Docker Image mit Management (Web GUI) installieren (z.B. rabbitmq:4.0-management)**
+
 - [Installation](https://www.rabbitmq.com/docs/download)
 - [Docker-Image](https://hub.docker.com/_/rabbitmq/)
 - [Windows](https://www.rabbitmq.com/docs/install-windows)
