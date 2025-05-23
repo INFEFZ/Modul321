@@ -253,11 +253,11 @@ Mit Tools wie **RabbitMQ** und Programmiersprachen wie C# lassen sich solche Sys
 | **Sozialform**      | Einzelarbeit                                             |
 | **Auftrag**         | siehe unten                                              |
 | **Hilfsmittel**     | [Installation](https://www.rabbitmq.com/docs/download)   |
-| **Zeitbedarf**      | 20min                                                    |
+| **Zeitbedarf**      | 20 min                                                   |
 | **Lösungselemente** | Lauffähige **RabbitMQ** Installation                     |
 
-Führe eine Installation von **RabbitMQ** auf als Docker-Image oder als lokale Windows-Installation aus.
-Teste die Installation über das Management Interface (Web GUI).
+Installiere und starte **RabbitMQ** in Docker (Docker-Image).
+Teste die Installation über das **Management Interface (Web GUI)**.
 
 - [Installation](https://www.rabbitmq.com/docs/download)
 - [Docker-Image](https://hub.docker.com/_/rabbitmq/)
