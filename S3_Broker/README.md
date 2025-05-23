@@ -260,6 +260,7 @@ Installiere und starte **RabbitMQ** in Docker (Docker-Image).
 Teste die Installation über das **Management Interface (Web GUI)**.
 
 > **Wichtig: Docker Image mit Management (Web GUI) installieren (z.B. rabbitmq:4.0-management)**
+> docker run -d --hostname rmq --name rabbit-server -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management
 
 - [Installation](https://www.rabbitmq.com/docs/download)
 - [Docker-Image](https://hub.docker.com/_/rabbitmq/)
